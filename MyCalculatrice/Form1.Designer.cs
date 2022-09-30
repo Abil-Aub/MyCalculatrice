@@ -104,13 +104,14 @@
             // 
             // btnC
             // 
+            this.btnC.BackColor = System.Drawing.Color.Tomato;
             this.btnC.Location = new System.Drawing.Point(389, 108);
             this.btnC.Margin = new System.Windows.Forms.Padding(4);
             this.btnC.Name = "btnC";
             this.btnC.Size = new System.Drawing.Size(75, 75);
             this.btnC.TabIndex = 5;
             this.btnC.Text = "C";
-            this.btnC.UseVisualStyleBackColor = true;
+            this.btnC.UseVisualStyleBackColor = false;
             this.btnC.Click += new System.EventHandler(this.btnC_Click);
             // 
             // btnMult
